@@ -5,4 +5,13 @@
   <title>{{ page.title | site.title }}</title>
   <link rel="stylesheet" href="{{"/assets/css/main.css" | prepend: site.baseurl }}">
   <script src="{{ "/assets/js/vendor/modernizr.js" | prepend: site.baseurl }}"></script>
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114678463-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-114678463-1');
+  </script>
 </head>
